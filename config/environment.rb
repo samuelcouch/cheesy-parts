@@ -3,11 +3,10 @@
 
 PORT = 9000
 DB_HOST = "localhost"
-DB_USER = "team254"
-DB_PASSWORD = "correcthorsebatterystaple"
+DB_USER = "samcouch"
+DB_PASSWORD = ""
 DB_DATABASE = "cheesy_parts"
-URL = "http://parts.team254.com"
-GMAIL_USER = "cheesyparts@gmail.com"
-GMAIL_PASSWORD = "correcthorsebatterystaple"
-WORDPRESS_AUTH_URL = "http://www.team254.com/auth/"
-LOGOUT_URL = "http://team254.com"
+URL = "LOCALHOST:9000"
+GMAIL_USER = "charles.s.couch@gmail.com"
+GMAIL_PASSWORD = "NULL"
+LOGOUT_URL = "LOCALHOST:9000"
