@@ -96,7 +96,7 @@ module CheesyParts
       halt(400, "Missing project name.") if params[:name].nil?
       halt(400, "Missing part number prefix.") if params[:part_number_prefix].nil?
 
-      project = Project.create(:name => params[:name], :part_number_prefix => params[:part_number_prefix])
+      project = Project.create(:name => params[:name], :part_number_prefix => params[:part_number_prefix], :hide_dashboards => params[:hide_dashboards].to_i)
       redirect "/projects/#{project.id}"
     end
 
