@@ -7,4 +7,4 @@ require "pathological"
 
 require "config/environment"
 
-DB = Sequel.postgres({ :host => DB_HOST, :user => DB_USER, :password => DB_PASSWORD, :database => DB_DATABASE })
+DB = Sequel.postgres(ENV['DATABASE_URL'] || { :host => DB_HOST, :user => DB_USER, :password => DB_PASSWORD, :database => DB_DATABASE })
