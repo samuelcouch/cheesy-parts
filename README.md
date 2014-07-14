@@ -20,3 +20,4 @@ To run Cheesy Parts locally:
 1. Create an empty Postgres database ("cheesy-parts" is the default) and a user account with full permissions on it.
 1. Run `bundle install`. This will download and install the gems that Cheesy Parts depends on.
 1. Run `bundle exec rake db:migrate`. This will run the database migrations to create the necessary tables.
+1. Run `ruby parts_server_control.rb run`
