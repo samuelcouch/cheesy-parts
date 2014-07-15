@@ -17,6 +17,9 @@ require "models"
 
 module CheesyParts
   class Server < Sinatra::Base
+    configure :development do
+    register Sinatra::Reloader
+  end
 
     set :sessions => true
 
