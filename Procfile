@@ -1,1 +1,1 @@
-web: bundle exec ruby parts_server.rb -p $PORT
+bundle exec ruby parts_server.rb -p $PORT

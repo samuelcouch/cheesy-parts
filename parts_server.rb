@@ -17,10 +17,6 @@ require "models"
 
 module CheesyParts
   class Server < Sinatra::Base
-    configure :development do
-    register Sinatra::Reloader
-  end
-
     set :sessions => true
 
     # Enforce authentication for all routes except login and user registration.
