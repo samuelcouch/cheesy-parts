@@ -1,1 +1,1 @@
-bundle exec ruby parts_server.rb -p $PORT
+web: bundle exec rackup config.ru -p $PORT
