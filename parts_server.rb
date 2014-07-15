@@ -10,6 +10,7 @@ require "eventmachine"
 require "json"
 require "pathological"
 require "pony"
+require "thin"
 require "sinatra/base"
 
 require "config/environment"
