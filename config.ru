@@ -1,2 +1,2 @@
 require './parts_server'
-run Sinatra::Server
+run CheesyParts::Server
